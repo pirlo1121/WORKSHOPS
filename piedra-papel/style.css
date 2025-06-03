@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+}
+h1{
+    color: rgb(0, 255, 217);
+}
+main{
+    background-color: #222;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    background:none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+button:hover{
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+.card{
+    background-color: #2e2e2e;
+    width: 400px;
+    padding: 1rem;
+    border-radius:5px;
+}
+.win{
+    color: rgb(0, 226, 0);
+    font-weight: bold;
+}
+.lost{
+    color: rgb(240, 0, 0);
+    font-weight: bold;
+}
+.dop{
+    color: rgb(115, 115, 115);
+    font-weight: bold;
+}
