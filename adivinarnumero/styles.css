@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+    padding: 2rem;
+    text-align: center;
+}
+input, button{
+    padding: 8px 12px;
+    margin: 7px;
+    border-radius: 8px;
+    border: none;
+}
+button{
+    background-color: rgb(43, 175, 43);
+    color: white;
+    font-weight: bold;
+}
