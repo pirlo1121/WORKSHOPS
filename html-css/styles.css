@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #111111;
+    color: white;
+}
+
+h1{ 
+    color: aqua;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 310px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow:  0px 0px 30px aqua;
+    border: 2px solid aqua;
+    /* filter: grayscale(100%); */
+    filter: brightness(100%);
+
+    transition: .4s;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.1) rotate(5deg);
+    filter: grayscale(0);
+    filter: brightness(60%);
+
+
+}
+button{
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: aqua;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+    box-shadow: inset 0px 0px 10px rgb(0, 0, 0);
+
+
+}
+button:hover{
+    background-color: black;
+    color: aqua;
+    box-shadow: inset 0px 0px 10px aqua;
+
+}
