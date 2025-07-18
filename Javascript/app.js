@@ -41,6 +41,3 @@ console.log(contarPalabras('  '))
 
 
 
-
-
-
