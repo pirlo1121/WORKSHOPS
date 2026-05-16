@@ -12,6 +12,8 @@ function veredicto(user, pc) {
     }
 }
 
+
+
 function jugar(user) {
     const opciones = ['papel', 'tijera', 'piedra']
     const numAzar = Math.floor(Math.random() * 3)
@@ -43,5 +45,12 @@ function changeClass(mensaje, resultado) {
 
 }
 
+// close modal
+        const modal = document.getElementById("my-dialog");
+        modal.addEventListener("click", e => {
+        if (e.target === modal) {
+            modal.close();
+        }
+        });
 
-// jugar();
+        

@@ -30,3 +30,6 @@ button:hover{
 .win{color: rgb(10, 216, 10);}
 .lose{color: rgb(240, 4, 4);}
 .draw{color: rgb(194, 194, 194);}
+button {
+    color: aqua;
+}

@@ -64,3 +64,17 @@ button:hover{
     box-shadow: inset 0px 0px 10px aqua;
 
 }
+
+
+p {
+  font-size: clamp(5px, 3vw,100px);
+  width: 600px;
+  margin: 2rem auto;
+}
+
+
+@media(max-width: 500px){
+    img{
+        object-fit: cover;
+    }
+}
