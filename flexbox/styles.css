@@ -133,6 +133,7 @@ img {
         /* Animación suave para el zoom */
         filter 0.4s ease;
     /* Animación suave para el filtro */
+    flex-shrink: 0;
 }
 
 /* Efecto hover sobre la imagen */
